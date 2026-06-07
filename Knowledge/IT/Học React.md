@@ -15,3 +15,7 @@ hãy hỏi tôi, tôi k biết bạn ơi
 
 # Nguyên tắc dùng useEffect? [id:815 order:32]
 nếu k làm việc với external system (vd: server,...) thì ta k nên dùng useEffect
+
+
+# tôi k chắc bro ơi, chót
+thử cái coi 
