@@ -48,15 +48,44 @@ function Stop-Fail($m)  { Write-Host "❌ $m" -ForegroundColor Red; exit 1 }
 # ─────────────────────────────────────────────────────────────────────────────
 function Test-TagSyntax {
     param([string]$Line, [string]$Rel, [int]$LineNo, $Bag)
-    foreach ($bm in [regex]::Matches($Line, '\[([^\]]*)\]')) {
-        $inner = $bm.Groups[1].Value
-        foreach ($m in [regex]::Matches($inner, '(\w+)\s*:\s*(\S+)')) {
-            $k = $m.Groups[1].Value; $val = $m.Groups[2].Value
-            if (($k -eq 'id' -or $k -eq 'order') -and $val -notmatch '^\d+$') {
-                $Bag.Add("[$Rel] dòng ${LineNo}: tag '$k' không phải số nguyên: '$val'")
-            }
+
+    # Strip optional draft closing "-->" so the rest is treated as a plain heading.
+    $s = $Line.TrimEnd()
+    $s = ($s -replace '\s*-->\s*$','').TrimEnd()
+
+    # No bracket at all → new question without id yet — allowed (BE will assign id on pull).
+    if ($s -notmatch '\[') { return }
+
+    # Must END with exactly one "[…]" block (no inner brackets, nothing after the
+    # closing "]"). Catches "[id:1 order:2]]" (extra "]"), "[id:1] junk", etc.
+    if ($s -notmatch '\[([^\[\]]+)\]\s*$') {
+        $Bag.Add("[$Rel] dòng ${LineNo}: tag không hợp lệ (phải kết thúc bằng '[id:N order:M]', không có ký tự thừa sau ']')")
+        return
+    }
+    $tag = $Matches[1]
+
+    # Text before the trailing tag must not contain another '[' (only one tag per heading).
+    $textPart = $s.Substring(0, $s.Length - ("[$tag]".Length)).TrimEnd()
+    if ($textPart -match '\[') {
+        $Bag.Add("[$Rel] dòng ${LineNo}: heading chứa nhiều hơn 1 cặp '[…]' — chỉ giữ tag '[id:N order:M]' ở cuối")
+        return
+    }
+
+    # Tag must contain both id and order, both non-negative integers.
+    $hasId = $false; $hasOrder = $false
+    foreach ($m in [regex]::Matches($tag, '(\w+)\s*:\s*(\S+)')) {
+        $k = $m.Groups[1].Value; $val = $m.Groups[2].Value
+        if ($k -eq 'id') {
+            $hasId = $true
+            if ($val -notmatch '^\d+$') { $Bag.Add("[$Rel] dòng ${LineNo}: tag 'id' không phải số nguyên: '$val'") }
+        }
+        elseif ($k -eq 'order') {
+            $hasOrder = $true
+            if ($val -notmatch '^\d+$') { $Bag.Add("[$Rel] dòng ${LineNo}: tag 'order' không phải số nguyên: '$val'") }
         }
     }
+    if (-not $hasId)    { $Bag.Add("[$Rel] dòng ${LineNo}: tag thiếu 'id'") }
+    if (-not $hasOrder) { $Bag.Add("[$Rel] dòng ${LineNo}: tag thiếu 'order'") }
 }
 
 function Get-KnowledgeViolations {
