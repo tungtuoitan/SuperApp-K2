@@ -1,0 +1,20 @@
+﻿---
+nodeId: 2528
+knowledgeId: 1141
+nodeStatus: draft
+---
+
+# Các React patterns phổ biến? [id:797 order:0]
+- HOC pattern
+- Hook pattern
+- Compound pattern
+- Container/Presentational
+- render props patterns
+- AI UI pattern
+- react stackpatterns
+
+# Cho ví dụ HOC? [id:798 order:1]
+HOC: dùng để custom tooltip
+
+# HOC là gì? [id:799 order:2]
+là việc hàm nhận vào component A, thêm logic cho A và trả về A'
