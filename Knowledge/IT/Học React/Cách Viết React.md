@@ -1,134 +1,134 @@
 ﻿---
-id: 102
+id: 2670
 name: "Cách Viết React"
 ---
 
-# vì sao nên dùng function component thay vì class component? [id:818 order:1]
+# vì sao nên dùng function component thay vì class component? [id:1863 order:1]
 vì function component ít boiler code
 
-# Khi nào helper funciton có thể nằm trong component? [id:819 order:2]
+# Khi nào helper funciton có thể nằm trong component? [id:1864 order:2]
 - khi function nhỏ
 - hoặc component nhỏ
 - k tái sử dụng
 
-# markup là gì? [id:820 order:3]
+# markup là gì? [id:1865 order:3]
 - là html
 
-# Tại sao lại nên dùng  configuration object để viết repeat markup? [id:821 order:4]
+# Tại sao lại nên dùng  configuration object để viết repeat markup? [id:1866 order:4]
 code dễ đọc, dễ sửa hơn do tuân thủ DRY và data-driven
 
-# 4 nguyên tắc viết component? [id:822 order:5]
+# 4 nguyên tắc viết component? [id:1867 order:5]
 - chỉ nên làm 1 việc
 - logic nhiều thì viết thành hook
 - max 5 props
 - tránh nest
 
-# vai trò của error-boundary? [id:823 order:6]
+# vai trò của error-boundary? [id:1868 order:6]
 tránh crash app toàn bộ
 
-# Cách dùng react-error-boundary? [id:824 order:7]
+# Cách dùng react-error-boundary? [id:1869 order:7]
 - bọc chúng ở component dễ gây bug
 
-# dấu hiệu của 1 component đang làm quá nhiều việc? [id:825 order:8]
+# dấu hiệu của 1 component đang làm quá nhiều việc? [id:1870 order:8]
 - nhiều props
 
-# component nhận nhiều props thì sao? [id:826 order:9]
+# component nhận nhiều props thì sao? [id:1871 order:9]
 - dễ bị re-render
 
-# vì sao props.A, props.B ít được sử dụng? [id:827 order:10]
+# vì sao props.A, props.B ít được sử dụng? [id:1872 order:10]
 vì nó làm boiler code
 
-# destructure là gì? [id:828 order:11]
+# destructure là gì? [id:1873 order:11]
 là dùng thuộc tính trực tiếp thay vì object
 
-# primitives là gì? [id:829 order:12]
+# primitives là gì? [id:1874 order:12]
 - kiểu dữ liệu nguyên thuỷ (string, number,...)
 
-# khi nào thì nên tạo  component riêng cho List? [id:830 order:13]
+# khi nào thì nên tạo  component riêng cho List? [id:1875 order:13]
 khi nào không nên ? [id:128 order:13]
 hầu hết là nên tách,
 k nên tách khi component chính đơn giản
 
-# vấn đề khi KHÔNG tách List ra khỏi markup? [id:831 order:14]
+# vấn đề khi KHÔNG tách List ra khỏi markup? [id:1876 order:14]
 Khó scan code
 Khó reuse list
 
-# explicit public API" pattern là gì? [id:832 order:15]
+# explicit public API" pattern là gì? [id:1877 order:15]
 là chủ động định nghĩa rõ những gì public trong 1 module, thay vì để lộ "tất cả" 1 cách mặc định
 
-# So sánh Featured-base và Layout-based structure? [id:833 order:16]
+# So sánh Featured-base và Layout-based structure? [id:1878 order:16]
 featured-base dễ mở rộng, phù hợp với app vừa và lớn, còn layout-based thì phù hợp với app nhỏ
 
-# Làm sao tránh cross-feature import [id:834 order:17]
+# Làm sao tránh cross-feature import [id:1879 order:17]
 tạo rule trong eslint để báo lỗi khi có cross feature
 
-# Vì sao state đặt gần thì performance càng tốt? [id:835 order:18]
+# Vì sao state đặt gần thì performance càng tốt? [id:1880 order:18]
 vì state càng trên cao, nó càng dễ trigger re-render lan rộng, gây ra bad performance
 
-# Khi nào thì nên cache server state? [id:836 order:19]
+# Khi nào thì nên cache server state? [id:1881 order:19]
 - khi data nặng và ít thay đổi
 
-# phân biệt Server state và UI state? [id:837 order:20]
+# phân biệt Server state và UI state? [id:1882 order:20]
 server state là data từ server
 còn UI state là data mà user đang edit ở client
 
-# Form state là gì ? [id:838 order:21]
+# Form state là gì ? [id:1883 order:21]
 là toàn bộ trạng thái của 1 form,
 ví dụ: value, isTouched, error,...
 
-# Khi nào dùng Form state? [id:839 order:22]
+# Khi nào dùng Form state? [id:1884 order:22]
 khi nào cần thì dùng, hiện tại tự dùng là đủ rồi,
 việc này tương tự việc dùng fetch thủ công thay vì Axios
 
-# 4 nguyên tắc viết FE? [id:840 order:23]
+# 4 nguyên tắc viết FE? [id:1885 order:23]
 - public api
 - Layered Architecture
 - Interceptor
 - Shared
 
-# Khi nào thì nên move local state lên trên? [id:841 order:24]
+# Khi nào thì nên move local state lên trên? [id:1886 order:24]
 - khi cần share với các component khác
 - khi nó bị props drilling
 
-# lợi ích của state ở gần nơi sử dụng ? [id:842 order:25]
+# lợi ích của state ở gần nơi sử dụng ? [id:1887 order:25]
 - code dễ hiểu
 - performance tốt
 
-# props drilling là gì? [id:843 order:26]
+# props drilling là gì? [id:1888 order:26]
 là việc prop bị truyền qua quá nhiều tầng component
 
-# Interceptor là gì? [id:844 order:27]
+# Interceptor là gì? [id:1889 order:27]
 có chức năng gì? [id:170 order:30]
 à lớp đứng giữa app và server,
 có chức năng xử lí mọi lỗi trước khi app thấy chúng
 
-# Cách abstract UI component đúng cách? [id:845 order:28]
+# Cách abstract UI component đúng cách? [id:1890 order:28]
 - không abstract ngay
 - quan sát pattern lặp lại của chúng
 - khi đủ 3 usecase giống nhau thì hãy abstract
 
-# 2 extension nên dùng trong FE? [id:846 order:29]
+# 2 extension nên dùng trong FE? [id:1891 order:29]
 - ESLint
 - Prettier
 
-# Nguyên tắc viết code? [id:847 order:30]
+# Nguyên tắc viết code? [id:1892 order:30]
 - code nên ở gần nơi sử dụng
 
-# layer-based structure là gì? [id:848 order:31]
+# layer-based structure là gì? [id:1893 order:31]
 là mỗi loại file có 1 folder lớn tương ứng
 
-# Layer Architecture là gì? [id:849 order:32]
+# Layer Architecture là gì? [id:1894 order:32]
 là kiến trúc phân tầng: app > feature > shared
 flow đi theo chiều từ trên xuống
 
-# Feature-based architecture là gì? [id:850 order:33]
+# Feature-based architecture là gì? [id:1895 order:33]
 là mỗi feature có 1 folder tương ứng
 
-# public api là gì? [id:851 order:34]
+# public api là gì? [id:1896 order:34]
 là việc import/export giữa các feature thông qua file index
 
-# tradeoff của caching là gì? [id:852 order:35]
+# tradeoff của caching là gì? [id:1897 order:35]
 dữ liệu có thể bị cũ
 
-# code bị nest thì sao? [id:853 order:36]
+# code bị nest thì sao? [id:1898 order:36]
 thì khó scan, khó đọc

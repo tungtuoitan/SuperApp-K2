@@ -1,11 +1,11 @@
 ﻿---
-id: 69
+id: 2637
 name: "Khắc chế điểm yếu"
 ---
 
-# làm sao để khắc chế điểm yếu nóng vội của mình? [id:638 order:1]
+# làm sao để khắc chế điểm yếu nóng vội của mình? [id:1683 order:1]
 ngâm trong 2'
 nghĩ 2 lần
 
-# làm sao để khắc chế tính hay quên? [id:639 order:2]
+# làm sao để khắc chế tính hay quên? [id:1684 order:2]
 tạo skill để validate
