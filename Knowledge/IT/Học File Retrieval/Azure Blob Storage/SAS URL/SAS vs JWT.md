@@ -1,30 +1,30 @@
 ﻿---
-id: 187
+id: 2755
 name: "SAS vs JWT"
 ---
 
-# SAS và JWT có điểm gì giống nhau về cơ chế? [id:1631 order:1]
+# SAS và JWT có điểm gì giống nhau về cơ chế? [id:2676 order:1]
 Cả hai đều dùng HMAC để ký — sửa thông tin là chữ ký sai, bị từ chối.
 
-# SAS và JWT khác nhau ở chỗ nào? [id:1632 order:2]
+# SAS và JWT khác nhau ở chỗ nào? [id:2677 order:2]
 JWT nằm trong Authorization header. SAS nằm trên URL.
 
-# JWT dùng để làm gì? [id:1633 order:3]
+# JWT dùng để làm gì? [id:2678 order:3]
 Xác thực người dùng với backend.
 
-# SAS dùng để làm gì? [id:1634 order:4]
+# SAS dùng để làm gì? [id:2679 order:4]
 Ủy quyền truy cập file trực tiếp với Azure.
 
-# SAS có stateless không? [id:1635 order:5]
+# SAS có stateless không? [id:2680 order:5]
 Có.
 
-# Tại sao SAS stateless? [id:1636 order:6]
+# Tại sao SAS stateless? [id:2681 order:6]
 Azure không cần lưu danh sách SAS — chỉ verify chữ ký là đủ.
 
-# JWT bị lộ nguy hiểm hơn hay SAS bị lộ nguy hiểm hơn? [id:1637 order:7]
+# JWT bị lộ nguy hiểm hơn hay SAS bị lộ nguy hiểm hơn? [id:2682 order:7]
 JWT bị lộ nguy hiểm hơn.
 
-# Tại sao JWT bị lộ nguy hiểm hơn SAS? [id:1638 order:8]
+# Tại sao JWT bị lộ nguy hiểm hơn SAS? [id:2683 order:8]
 JWT cho phép giả danh user và làm mọi thứ user làm được. SAS chỉ truy cập được đúng file đó trong thời hạn giới hạn.
 
 ---
