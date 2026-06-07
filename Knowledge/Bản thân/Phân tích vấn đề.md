@@ -1,11 +1,11 @@
 ﻿---
-id: 2579
+id: 72
 name: "Phân tích vấn đề"
 ---
 
-# Tại sao mình hay bị rối khi phân tích vấn đề? [id:1187 order:1]
+# Tại sao mình hay bị rối khi phân tích vấn đề? [id:655 order:1]
 vì mình k dùng diagram khi có quá nhiều node, và trí nhớ ngắn hạn kém
 
-# Tại sao nên dùng Figma diagram để phân tích thay vì textfield? [id:1188 order:2]
+# Tại sao nên dùng Figma diagram để phân tích thay vì textfield? [id:656 order:2]
 vì nó giúp ta thấy được flow, hướng, điểm đầu, điểm cuối của thông tin.
 còn textfield không có khả năng này.

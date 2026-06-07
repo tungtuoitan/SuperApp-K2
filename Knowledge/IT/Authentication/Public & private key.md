@@ -1,15 +1,15 @@
 ﻿---
-id: 2600
+id: 93
 name: "Public & private key"
 ---
 
-# private key và public key dùng để làm gì? [id:1295 order:1]
+# private key và public key dùng để làm gì? [id:763 order:1]
 - mã hóa dữ liệu để bảo mật
 - kí token
 
-# ví dụ pattern ngoài đời thật tương tự private key, public key ? [id:1296 order:2]
+# ví dụ pattern ngoài đời thật tương tự private key, public key ? [id:764 order:2]
 Private key = con dấu thật của công ty
 Public key = mẫu dấu công khai cho mọi người xem
 
-# cách dùng private key, public key để mã hóa? [id:1297 order:3]
+# cách dùng private key, public key để mã hóa? [id:765 order:3]
 dùng public để encrypt data, rồi B dùng private key để decrypt data

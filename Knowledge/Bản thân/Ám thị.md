@@ -1,19 +1,19 @@
 ﻿---
-id: 2581
+id: 74
 name: "Ám thị"
 ---
 
-# đặc trưng hiện tại của mình? [id:1194 order:1]
+# đặc trưng hiện tại của mình? [id:662 order:1]
 - 3 không: k niềm tin, k cảm hứng, k kỉ luật
 
-<!--# mình nên làm gì khi k có 3 thứ đó? [id:1195 order:2]
+<!--# mình nên làm gì khi k có 3 thứ đó? [id:663 order:2]
 - tích luỹ việc tốt hằng ngày, thay vì đặt mục tiêu cụ thể -->
 
-# vì sao k đặt mục tiêu cụ thể? [id:1196 order:3]
+# vì sao k đặt mục tiêu cụ thể? [id:664 order:3]
 - vì có kỉ luật và động lực để làm đâu, cho nên đằng nào cũng k làm được
 
-# Hôm nay có gì tiến bộ? [id:1197 order:4]
+# Hôm nay có gì tiến bộ? [id:665 order:4]
 hãy tự liệt kê ra xem nào
 
-# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5]
+# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:666 order:5]
 .
