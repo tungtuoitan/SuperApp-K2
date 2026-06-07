@@ -188,12 +188,14 @@ function Invoke-Validate {
 # GIT HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
 function Invoke-Git { param([Parameter(ValueFromRemainingArguments)] $GitArgs)
-    # Pipe git's stdout+stderr to the host so warnings (e.g. "LF will be
-    # replaced by CRLF") don't leak into the function's return value. PS 5.1
-    # promotes native stderr lines into the output stream, so without Out-Host
-    # the caller's `(Invoke-Git ...) -ne 0` filter ends up matching warning
-    # strings and falsely treating successful commands as failures.
-    & git @GitArgs 2>&1 | Out-Host
+    # Pipe stdout to Out-Host so git's chatty output (e.g. "Saved working
+    # directory and index state…") doesn't leak into the function's return
+    # value — without this, the caller's `(Invoke-Git ...) -ne 0` filter ends
+    # up matching string output and falsely reports failure.
+    # DO NOT redirect 2>&1: that converts native stderr (e.g. push progress
+    # "To https://…") into NativeCommandError records, which $ErrorActionPreference=Stop
+    # then promotes to a terminating error even on a successful push.
+    & git @GitArgs | Out-Host
     return $LASTEXITCODE
 }
 function Test-HasConflict { @(git diff --name-only --diff-filter=U).Count -gt 0 }
