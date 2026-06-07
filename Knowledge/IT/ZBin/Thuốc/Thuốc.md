@@ -1,7 +1,7 @@
 ﻿---
-id: 297
+id: 2865
 name: "Thuốc"
 ---
 
-# Thuốc chữ P là gì? [id:2572 order:1]
+# Thuốc chữ P là gì? [id:3617 order:1]
 là thuốc chữa/giảm đau dạ dày, vd: viêm loét, trào ngược,...
