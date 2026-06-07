@@ -4,20 +4,15 @@ knowledgeId: 1142
 nodeStatus: learning
 ---
 
-# Cách đặt tên node?  [id:706 order:0]
+# Cách đặt tên node? [id:706 order:0]
 mỗi node là tên công việc mà mình sẽ làm
 
 # Cách dùng KTree để học? [id:707 order:1]
-- tạo node 
+- tạo node
 - tạo bộ câu hỏi
 - test đi test lại
 
-<!--# khi nào thì nên học kiến thức? 
-khi nào không nên? [id:704 order:2]
-học khi ứng dụng được ngay 
-nếu k thì k nên học -->
-
-# Mục đích dùng KTree? [id:705 order:3]
+# Mục đích dùng KTree? [id:705 order:2]
 đưa kiến thức vào tiềm thức
 
 # Tại sao phải xác địch công việc để áp dụng kiến thức trước khi học? [id:703 order:3]

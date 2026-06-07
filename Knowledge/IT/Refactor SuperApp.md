@@ -39,5 +39,5 @@ khi đọc, ta phân tích và đánh giá các cách viết của nó, cho nên
 - dễ bảo trì
 
 # Refactor SuperApp có nhanh không? vì sao? [id:717 order:9]
-không nhanh, 
+không nhanh,
 vì chất lượng code của SuperApp k tốt,

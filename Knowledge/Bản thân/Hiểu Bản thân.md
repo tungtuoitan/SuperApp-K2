@@ -14,12 +14,12 @@ nodeStatus: draft
 - tập trung kém
 - thần kinh yếu
 
-# Ví dụ vài thất bại của mình? [id:686 order:1]
+# Ví dụ vài thất bại của mình? [id:686 order:2]
 - document repository
 - mindmap
 - wiki, lifelog
 
-# Ví dụ những thành công của mình? [id:687 order:2]
+# Ví dụ những thành công của mình? [id:687 order:3]
 - bắt bug token của Renel
 - làm SuperApp > Project
 
@@ -41,42 +41,42 @@ nodeStatus: draft
 - vô kỉ luật
 - làm k ra kết quả
 
-# Làm thế nào để tăng tự tin? [id:698 order:5]
+# Làm thế nào để tăng tự tin? [id:698 order:6]
 - khoẻ mạnh
 - trùm code
 
-# Tại sao mình đi theo lối đi LTD không được? [id:689 order:6]
+# Tại sao mình đi theo lối đi LTD không được? [id:689 order:7]
 - kiến thức nền kém
 - niềm tin kém
 - kỉ luật kém
 - hành động k hiệu quả
 
-# Vòng lặp mình đang gặp là gì? [id:699 order:6]
+# Vòng lặp mình đang gặp là gì? [id:699 order:8]
 Đặt mục tiêu sai -> Thất bại -> mất niềm tin, chán nản -> vô kỉ luật -> blackdays
 
 # Đánh giá năng lực hiện tại của mình? [id:691 order:9]
 - kỉ luật kém
 - sức khoẻ kém
-- tự tin kém 
+- tự tin kém
 - hành độngkém
 
-# Nguyên nhân dẫn đến vô kỉ luật? [id:693 order:13]
+# Nguyên nhân dẫn đến vô kỉ luật? [id:693 order:10]
 - chán nản
 
-# Tại sao mình kém tự tin [id:694 order:14]
+# Tại sao mình kém tự tin [id:694 order:11]
 - thất bại nhiều
 - thành công ít
 
-# Làm sao để có cảm hứng mỗi ngày? [id:700 order:15]
+# Làm sao để có cảm hứng mỗi ngày? [id:700 order:12]
 - mỗi lần nhích gần lại mục tiêu trùm dev là mình có cảm hứng à
 
-# giữa thói quen và trùm dev thì mình nên ưu tiên hư thế nào? 
+# giữa thói quen và trùm dev thì mình nên ưu tiên hư thế nào? [id:1112 order:13]
 vì sao? [id:701 order:16]
 ưu tiên trùm dev, vì nó tạo ra cảm hứng
 còn thói quen sẽ đến dần dần, k cần dồn sức cho nó.
 
-# làm sao để đi nhanh hơn? [id:695 order:17]
+# làm sao để đi nhanh hơn? [id:695 order:14]
 khi mình hết sợ, hết tự ti thì sẽ đi nhanh hơn?
 
-# tại sao hết sợ, hết tự ti thì đi nhanh hơn? [id:696 order:18]
+# tại sao hết sợ, hết tự ti thì đi nhanh hơn? [id:696 order:15]
 vì khi sộ, tự ti thì k làm được gì cả, rất hay blackday

@@ -23,8 +23,3 @@ trùm dev + chữa bệnh
 - tiến bộ chậm
 
 <!--# có mấy loại task? [id:882 order:4] -->
-
-<!--# làm sao đảm bảo được: 
-k quên task, 
-tuân thủ các rule, nguyên tắc đã dặt ra
-tuân thủ flow đã đặt ra? [id:883 order:5] -->

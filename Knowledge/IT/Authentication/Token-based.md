@@ -4,16 +4,16 @@ knowledgeId: 1141
 nodeStatus: draft
 ---
 
-# Token-based phù hợp với hệ thống nào? [id:866 order:12]
+# Token-based phù hợp với hệ thống nào? [id:866 order:0]
 phù hợp với hầu hết các hệ thống
 
-# Token-based không phù hợp với hệ thống nào? [id:867 order:16]
+# Token-based không phù hợp với hệ thống nào? [id:867 order:1]
 web server side rendering
 hệ thống cần revoke quyền ngay lập tức
 hệ thống tài chính/ ngân hàng
 
-# tại sao token-based k phù hợp với hệ thống ngân hàng? [id:868 order:17]
+# tại sao token-based k phù hợp với hệ thống ngân hàng? [id:868 order:2]
 vì ngân hàng cần bảo mật cao, cần ban user NGAY LẬP TỨC, và token k thể làm điều đó
 
-# tại sao session phù hợp với SSR web, còn token thì không phù hợp? [id:869 order:18]
+# tại sao session phù hợp với SSR web, còn token thì không phù hợp? [id:869 order:3]
 vì SSR thì request ban đầu k có bước js nên k gửi token đi được, còn session_id dc gửi TỰ ĐỘNG BỞI BROWER cho nên được

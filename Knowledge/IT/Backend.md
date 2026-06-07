@@ -5,10 +5,10 @@ nodeStatus: learning
 ---
 
 # Backend có mấy tầng [id:800 order:0]
-có 4 tầng: 
+có 4 tầng:
 - hosting
-- business logic 
-- data access 
+- business logic
+- data access
 - cross-cutting
 
 # coupling là gì? [id:801 order:1]
@@ -24,7 +24,7 @@ là A phụ thuộc  quá chặt vào B
 chứa các service dùng chung như log, auth, cache service
 
 # tại sao lại gọi là cross-cutting? [id:805 order:5]
-cross cutting nghĩa là cắt ngang, 
+cross cutting nghĩa là cắt ngang,
 gọi là cross cutting vì các service này sẽ dùng ở mọi tầng, "cắt ngang" mọi chỗ
 
 # 1 source nên có mấy file appsettings? [id:806 order:6]
@@ -46,9 +46,9 @@ nên dùng appsettings, vì nó và version mới, và nó linh hoạt, mạnh m
 # cross-ting tương ứng với tầng gì ở FE? [id:813 order:11]
 tầng shared
 
-# Tại sao khi deploy BE thì đôi lúc bị lỗi do service hiện tại đang chạy nhỉ? [id:811 order:16]
+# Tại sao khi deploy BE thì đôi lúc bị lỗi do service hiện tại đang chạy nhỉ? [id:811 order:12]
 nếu deploy lúc app đạng chạy thì sẽ bị lỗi
 còn nếu app dang idle thì k sao
 
-# idle là gì? [id:812 order:36]
+# idle là gì? [id:812 order:13]
 là trạng thái app rảnh
