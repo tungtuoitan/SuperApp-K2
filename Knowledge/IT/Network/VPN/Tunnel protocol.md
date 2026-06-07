@@ -1,22 +1,22 @@
 ﻿---
-id: 244
+id: 2812
 name: "Tunnel protocol"
 ---
 
-<!--# VPN dùng những protocol nào? [id:2115 order:1]
+<!--# VPN dùng những protocol nào? [id:3160 order:1]
 WireGuard, IPSec/IKEv2, OpenVPN, L2TP/IPSec, PPTP. -->
 
-<!--# Tại sao VPN cần protocol? [id:2116 order:2]
+<!--# Tại sao VPN cần protocol? [id:3161 order:2]
 Để client và server nói cùng "ngôn ngữ" — biết cách đóng gói, mã hóa, trao đổi khóa, và xác thực. -->
 
-<!--# Protocol nào nên dùng hiện nay? [id:2117 order:3]
+<!--# Protocol nào nên dùng hiện nay? [id:3162 order:3]
 WireGuard — nhanh nhất, codebase nhỏ (~4k dòng), dễ audit, dùng ChaCha20. -->
 
-<!--# Khi nào dùng OpenVPN thay WireGuard? [id:2118 order:4]
+<!--# Khi nào dùng OpenVPN thay WireGuard? [id:3163 order:4]
 Khi cần vượt firewall strict — OpenVPN chạy qua port 443, traffic trông như HTTPS nên khó bị block. -->
 
-<!--# Tại sao không dùng PPTP? [id:2119 order:5]
+<!--# Tại sao không dùng PPTP? [id:3164 order:5]
 MS-CHAPv2 của PPTP đã bị crack. Không an toàn. -->
 
-<!--# L2TP chậm hơn vì sao? [id:2120 order:6]
+<!--# L2TP chậm hơn vì sao? [id:3165 order:6]
 Double encapsulation — L2TP tạo tunnel, IPSec mã hóa bên trên, hai lớp bọc nên nặng hơn. -->

@@ -1,23 +1,23 @@
 ﻿---
-id: 188
+id: 2756
 name: "Chữa bệnh"
 ---
 
-# 2 nguyên nhân gốc rễ dẫn đến bệnh tật? [id:1639 order:1]
+# 2 nguyên nhân gốc rễ dẫn đến bệnh tật? [id:2684 order:1]
 stress
 ít vận động
 
-# Cách hành động để chữa viêm đại tràng? [id:1640 order:2]
+# Cách hành động để chữa viêm đại tràng? [id:2685 order:2]
 ăn rau
 uống thuốc
 
-# Các hành động để chữa viêm hang vị? [id:1641 order:3]
+# Các hành động để chữa viêm hang vị? [id:2686 order:3]
 chữa stress
 bỏ chua cay, dầu mỡ
 ăn đúng bữa
 bỏ cafe
 
-# Các hành động để chữa trĩ nội? [id:1642 order:4]
+# Các hành động để chữa trĩ nội? [id:2687 order:4]
 k rặn
 k ngồi tolet lâu
 ăn rau

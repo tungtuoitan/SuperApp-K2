@@ -1,37 +1,37 @@
 ﻿---
-id: 218
+id: 2786
 name: "Base64"
 ---
 
-# Base64 giải quyết bài toán gì? [id:1802 order:1]
+# Base64 giải quyết bài toán gì? [id:2847 order:1]
 Nhúng binary data vào môi trường chỉ chứa text được (JSON, HTML, Email).
 
-# Base64 có phải mã hóa bảo mật không? [id:1803 order:2]
+# Base64 có phải mã hóa bảo mật không? [id:2848 order:2]
 Không.
 
-# Tại sao Base64 không phải mã hóa bảo mật? [id:1804 order:3]
+# Tại sao Base64 không phải mã hóa bảo mật? [id:2849 order:3]
 Ai cũng decode được mà không cần key.
 
-# Base64 làm tăng kích thước file bao nhiêu? [id:1805 order:4]
+# Base64 làm tăng kích thước file bao nhiêu? [id:2850 order:4]
 33%.
 
-# Tại sao Base64 tăng 33%? [id:1806 order:5]
+# Tại sao Base64 tăng 33%? [id:2851 order:5]
 Vì 3 bytes binary được biểu diễn bằng 4 ký tự ASCII.
 
-# Base64 có stream được không? [id:1807 order:6]
+# Base64 có stream được không? [id:2852 order:6]
 Không.
 
-# Tại sao Base64 không stream được? [id:1808 order:7]
+# Tại sao Base64 không stream được? [id:2853 order:7]
 Phải decode toàn bộ chuỗi mới có data — không thể decode một nửa.
 
-# Base64 ảnh hưởng RAM như thế nào? [id:1809 order:8]
+# Base64 ảnh hưởng RAM như thế nào? [id:2854 order:8]
 File tồn tại 3 lần trong RAM: string base64 → ArrayBuffer → Blob.
 
-# Email attachment có thể dùng stream thay Base64 không? [id:1810 order:9]
+# Email attachment có thể dùng stream thay Base64 không? [id:2855 order:9]
 Không.
 
-# Tại sao email attachment không dùng stream được? [id:1811 order:10]
+# Tại sao email attachment không dùng stream được? [id:2856 order:10]
 Email không phải HTTP — không có khái niệm stream. Base64 là chuẩn MIME bắt buộc (RFC 2045).
 
-# Khi nào Base64 là lựa chọn đúng? [id:1812 order:11]
+# Khi nào Base64 là lựa chọn đúng? [id:2857 order:11]
 Khi cần nhúng binary vào text-based format: email attachment, data URI trong HTML, file nhỏ bundle cùng API response.

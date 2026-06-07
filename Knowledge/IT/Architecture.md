@@ -1,17 +1,17 @@
 ﻿---
-id: 198
+id: 2766
 name: "Architecture"
 ---
 
-# lợi ích của public api? [id:1694 order:1]
+# lợi ích của public api? [id:2739 order:1]
 Ẩn implementation detail
 Cho phép refactor internal mà không ảnh hưởng consumer
 Một entry point duy nhất
 
-# Barrel là gì? [id:1695 order:2]
+# Barrel là gì? [id:2740 order:2]
 là file index chứa public api của 1 module
 
-# nhược điểm của barrel? [id:1696 order:3]
+# nhược điểm của barrel? [id:2741 order:3]
 dependency mơ hồ
 dễ circular
 build chậm trong monorepo
