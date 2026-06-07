@@ -1,9 +1,9 @@
 ﻿---
-id: 2840
+id: 272
 name: "Giảm BlackDay"
 ---
 
-# khi nào blackday thường xảy ra? [id:3325 order:1]
+# khi nào blackday thường xảy ra? [id:2280 order:1]
 - khi vô kỉ luật
 - khi task có vấn đề
 - sức khoẻ kém
@@ -11,8 +11,8 @@ name: "Giảm BlackDay"
 - khi fap
 - khi thất bại
 
-# black day là gì? [id:3326 order:2]
+# black day là gì? [id:2281 order:2]
 là chuỗi ngày vô kỉ luật, mất niềm tin trầm trọng vào bản thân
 
-# Làm sao để giảm blackday? [id:3327 order:3]
+# Làm sao để giảm blackday? [id:2282 order:3]
 - tăng kỉ luật
