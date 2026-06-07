@@ -9,7 +9,7 @@ mỗi node là tên công việc mà mình sẽ làm
 # Cách dùng KTree để học? [id:2157 order:2]
 - tạo node
 - tạo bộ câu hỏi
-- test đi test lại
+- test đi test lại.
 
 # Mục đích dùng KTree? [id:2158 order:3]
 đưa kiến thức vào tiềm thức
