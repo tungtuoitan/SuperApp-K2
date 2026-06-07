@@ -18,3 +18,6 @@ thử cái coi
 
 # Nguyên tắc dùng useEffect? [id:815 order:32]
 nếu k làm việc với external system (vd: server,...) thì ta k nên dùng useEffect
+
+# lại nè, số 4 
+cho tôi
