@@ -1,48 +1,48 @@
 ﻿---
-id: 2660
+id: 153
 name: "Access Token"
 ---
 
-# Token là gì? [id:1795 order:1]
+# Token là gì? [id:1263 order:1]
 - là 1 chuỗi dữ liệu để cho phép user gọi API để truy cập tài nguyên
 
-# thành phần của Access Token [id:1796 order:2]
+# thành phần của Access Token [id:1264 order:2]
 - gồm 3 phần: header, payload, signature
 
-# Token tương ứng với cái gì ở thế giới thực? [id:1797 order:3]
+# Token tương ứng với cái gì ở thế giới thực? [id:1265 order:3]
 - tấm vé vào cửa, hoặc chìa khoá tạm thời
 
-# Tại sao lại dùng Token thay vì session truyền thống? [id:1798 order:4]
+# Tại sao lại dùng Token thay vì session truyền thống? [id:1266 order:4]
 - session k hỗ trợ mobile và các  (do chỉ có trên browser)
 - session khó scale cho các ứng dụng lớn, micro service, còn token thì dễ hơn vì stateless
 
-# Các loại token phổ biến? [id:1799 order:5]
+# Các loại token phổ biến? [id:1267 order:5]
 - JWT
 - SAML
 
-# Access Token là gì? [id:1800 order:6]
+# Access Token là gì? [id:1268 order:6]
 - là token dùng để truy cập tài nguyên của server,
 
-# ReFresh token là gì? [id:1801 order:7]
+# ReFresh token là gì? [id:1269 order:7]
 - là token dùng để lấy access token mới khi access token hết hạn
 
-# Claim trong token là gì? [id:1802 order:8]
+# Claim trong token là gì? [id:1270 order:8]
 Các mẩu thông tin nhỏ (key-value) nằm trong token (ví dụ: name, email, role…).
 
-# đặc điểm của Access Token? [id:1803 order:9]
+# đặc điểm của Access Token? [id:1271 order:9]
 - được gửi kèm trong mỗi request đến server
 - thời gian sống nhắn, thường được set từ 15' - 1h
 
-# JWT là gì? [id:1804 order:10]
+# JWT là gì? [id:1272 order:10]
 Loại 1 loại token
 
-# đặc điểm của Refresh Token? [id:1805 order:11]
+# đặc điểm của Refresh Token? [id:1273 order:11]
 - không được dùng để truy cập tài nguyên
 - thời gian sống dài, (vài ngày, vài tuần hoặc vài tháng)
 
-# Ưu điểm của Token-based Authentication [id:1806 order:12]
+# Ưu điểm của Token-based Authentication [id:1274 order:12]
 - dễ scale ngang
 - đa nền tảng
 
-# Nhược điểm của Token-based [id:1807 order:13]
+# Nhược điểm của Token-based [id:1275 order:13]
 không thể thu hồi ngay lập tức.
