@@ -13,9 +13,8 @@ component unmount
 # năm nay CR7 có vô địch không? [id:1109 order:2]
 hãy hỏi tôi, tôi k biết bạn ơi
 
+# tôi k chắc bro ơi, chót [id:1110 order:3]
+thử cái coi
+
 # Nguyên tắc dùng useEffect? [id:815 order:32]
 nếu k làm việc với external system (vd: server,...) thì ta k nên dùng useEffect
-
-
-# tôi k chắc bro ơi, chót
-thử cái coi 
