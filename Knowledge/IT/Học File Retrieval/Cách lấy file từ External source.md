@@ -1,22 +1,22 @@
 ﻿---
-id: 2727
+id: 220
 name: "Cách lấy file từ External source"
 ---
 
-# Có mấy cách lấy file từ external source? [id:2351 order:1]
+# Có mấy cách lấy file từ external source? [id:1819 order:1]
 Bốn cách: Base64 trong JSON, Proxy Stream, lưu vào Azure Blob rồi trả SAS URL, Signed URL từ external source.
 
-# Cách nào tốn băng thông backend nhiều nhất? [id:2352 order:2]
+# Cách nào tốn băng thông backend nhiều nhất? [id:1820 order:2]
 Base64 — backend phải đọc toàn bộ file, encode rồi trả trong response.
 
-# Cách nào backend tốn ít tài nguyên nhất? [id:2353 order:3]
+# Cách nào backend tốn ít tài nguyên nhất? [id:1821 order:3]
 Signed URL — backend chỉ lấy URL rồi trả về, không đụng vào nội dung file.
 
-# Khi nào nên lưu file vào Azure Blob trước rồi trả SAS? [id:2354 order:4]
+# Khi nào nên lưu file vào Azure Blob trước rồi trả SAS? [id:1822 order:4]
 Khi file được xem nhiều lần hoặc external source không đảm bảo availability.
 
-# Proxy stream phù hợp khi nào? [id:2355 order:5]
+# Proxy stream phù hợp khi nào? [id:1823 order:5]
 Khi cần xử lý file lớn tốt hơn Base64 mà không muốn đổi storage infrastructure.
 
-# Signed URL từ external source là gì? [id:2356 order:6]
+# Signed URL từ external source là gì? [id:1824 order:6]
 URL tạm thời có chữ ký do external source (S3, GCS...) tạo ra — tương tự SAS URL.

@@ -1,106 +1,106 @@
 ﻿---
-id: 2734
+id: 227
 name: "VPN"
 ---
 
-# Network là gì? [id:2423 order:1]
+# Network là gì? [id:1891 order:1]
 Network là nhiều thiết bị kết nối với nhau để trao đổi dữ liệu.
 
-# Internet là gì? [id:2424 order:2]
+# Internet là gì? [id:1892 order:2]
 Internet là network rất lớn nối nhiều network nhỏ lại với nhau.
 
-# VPN là gì? [id:2425 order:3]
+# VPN là gì? [id:1893 order:3]
 VPN là một mạng riêng ảo tạo kết nối mã hóa qua internet.
 
-# VPN có thay thế internet không? [id:2426 order:4]
+# VPN có thay thế internet không? [id:1894 order:4]
 Không.
 
-# VPN có cần internet để hoạt động không? [id:2427 order:5]
+# VPN có cần internet để hoạt động không? [id:1895 order:5]
 Có.
 
-<!--# VPN tunnel là gì? [id:2428 order:6]
+<!--# VPN tunnel là gì? [id:1896 order:6]
 VPN tunnel là kết nối mã hóa giữa client và VPN server. -->
 
-<!--# VPN dùng để làm gì? [id:2429 order:7]
+<!--# VPN dùng để làm gì? [id:1897 order:7]
 VPN dùng để truy cập mạng riêng từ xa qua internet. -->
 
-<!--# Consumer VPN và corporate VPN khác nhau thế nào? [id:2430 order:8]
+<!--# Consumer VPN và corporate VPN khác nhau thế nào? [id:1898 order:8]
 Consumer VPN chủ yếu để privacy và đổi IP. Corporate VPN để vào mạng nội bộ công ty. -->
 
-# Trong công ty, VPN dùng để làm gì? [id:2431 order:9]
+# Trong công ty, VPN dùng để làm gì? [id:1899 order:9]
 VPN cho phép nhân viên truy cập tài nguyên nội bộ từ xa.
 
-# VPN có phải internet riêng không? [id:2432 order:10]
+# VPN có phải internet riêng không? [id:1900 order:10]
 Không.
 
-# VPN có phải mạng vật lý không? [id:2433 order:11]
+# VPN có phải mạng vật lý không? [id:1901 order:11]
 Không.
 
-<!--# “Virtual” trong VPN nghĩa là gì? [id:2434 order:12]
+<!--# “Virtual” trong VPN nghĩa là gì? [id:1902 order:12]
 Nó là mạng logic, không phải dây mạng thật. -->
 
-<!--# VPN có luôn cần VPN server không? [id:2435 order:13]
+<!--# VPN có luôn cần VPN server không? [id:1903 order:13]
 Thông thường là có. -->
 
-<!--# VPN server dùng để làm gì? [id:2436 order:14]
+<!--# VPN server dùng để làm gì? [id:1904 order:14]
 VPN server authenticate user, tạo tunnel và route traffic. -->
 
-<!--# Client VPN có luôn connect đến VPN server trước không? [id:2437 order:15]
+<!--# Client VPN có luôn connect đến VPN server trước không? [id:1905 order:15]
 Thông thường là có. -->
 
-# Khi connect VPN, client có được cấp IP riêng không? [id:2438 order:16]
+# Khi connect VPN, client có được cấp IP riêng không? [id:1906 order:16]
 Có.
 
-# IP đó gọi là gì? [id:2439 order:17]
+# IP đó gọi là gì? [id:1907 order:17]
 Virtual IP hoặc VPN IP.
 
-# Virtual IP dùng để làm gì? [id:2440 order:18]
+# Virtual IP dùng để làm gì? [id:1908 order:18]
 Để định danh và route traffic trong VPN.
 
-<!--# Máy dùng VPN có thể có nhiều IP không? [id:2441 order:19]
+<!--# Máy dùng VPN có thể có nhiều IP không? [id:1909 order:19]
 Có. -->
 
-<!--# Ví dụ máy có nhiều IP? [id:2442 order:20]
+<!--# Ví dụ máy có nhiều IP? [id:1910 order:20]
 Một IP mạng nhà và một IP VPN. -->
 
-<!--# Split tunnel VPN là gì? [id:2443 order:21]
+<!--# Split tunnel VPN là gì? [id:1911 order:21]
 Là kiểu VPN chỉ route một phần traffic qua VPN. -->
 
-# Trong split tunnel, YouTube đi đâu? [id:2444 order:22]
+# Trong split tunnel, YouTube đi đâu? [id:1912 order:22]
 Đi internet thường.
 
-# Trong split tunnel, DB công ty đi đâu? [id:2445 order:23]
+# Trong split tunnel, DB công ty đi đâu? [id:1913 order:23]
 Đi qua VPN tunnel và VPN server.
 
-# Vì sao công ty dùng split tunnel? [id:2446 order:24]
+# Vì sao công ty dùng split tunnel? [id:1914 order:24]
 Để giảm tải VPN server và tăng tốc internet.
 
-# Full tunnel VPN là gì? [id:2447 order:25]
+# Full tunnel VPN là gì? [id:1915 order:25]
 Là kiểu VPN route toàn bộ traffic qua VPN server.
 
-# VPN tunnel có chạy trên internet không? [id:2448 order:26]
+# VPN tunnel có chạy trên internet không? [id:1916 order:26]
 Có.
 
-# Nếu không có internet thì VPN có hoạt động không? [id:2449 order:27]
+# Nếu không có internet thì VPN có hoạt động không? [id:1917 order:27]
 Không.
 
-# Người ngoài internet thấy gì khi dùng VPN? [id:2450 order:28]
+# Người ngoài internet thấy gì khi dùng VPN? [id:1918 order:28]
 Họ chỉ thấy client đang connect đến VPN server.
 
-# User lạ làm sao bị chặn khỏi VPN công ty? [id:2451 order:29]
+# User lạ làm sao bị chặn khỏi VPN công ty? [id:1919 order:29]
 VPN server yêu cầu account, password hoặc MFA.
 
-<!--# Sau khi vào VPN, máy user giống như thế nào? [id:2452 order:30]
+<!--# Sau khi vào VPN, máy user giống như thế nào? [id:1920 order:30]
 Giống như đang nằm trong mạng nội bộ công ty. -->
 
-<!--# Bastion server khác VPN thế nào? [id:2453 order:31]
+<!--# Bastion server khác VPN thế nào? [id:1921 order:31]
 Bastion chỉ cho truy cập service cụ thể, còn VPN cho tham gia network riêng. -->
 
-# User → Server A → DB B có phải VPN không? [id:2454 order:32]
+# User → Server A → DB B có phải VPN không? [id:1922 order:32]
 Chưa hẳn.
 
-# Mô hình User → Server A → DB B thường gọi là gì? [id:2455 order:33]
+# Mô hình User → Server A → DB B thường gọi là gì? [id:1923 order:33]
 Gateway, proxy hoặc bastion server.
 
-# Khi nào Server A trở thành VPN server? [id:2456 order:34]
+# Khi nào Server A trở thành VPN server? [id:1924 order:34]
 Khi nó tạo tunnel, cấp virtual IP và route traffic mạng.

@@ -1,53 +1,53 @@
 ﻿---
-id: 2707
+id: 200
 name: "Backend"
 ---
 
-# Backend có mấy tầng [id:2235 order:1]
+# Backend có mấy tầng [id:1703 order:1]
 có 4 tầng:
 - hosting
 - business logic
 - data access
 - cross-cutting
 
-# coupling là gì? [id:2236 order:2]
+# coupling là gì? [id:1704 order:2]
 là việc A phụ thuộc vào B
 
-# "tránh coupling" là gì? [id:2237 order:3]
+# "tránh coupling" là gì? [id:1705 order:3]
 là tránh việc A phụ thuộc CỨNG vào B
 
-# tight coupling là gì? [id:2238 order:4]
+# tight coupling là gì? [id:1706 order:4]
 là A phụ thuộc  quá chặt vào B
 
-# tầng cross-cutting thường chứa gì? [id:2239 order:5]
+# tầng cross-cutting thường chứa gì? [id:1707 order:5]
 chứa các service dùng chung như log, auth, cache service
 
-# tại sao lại gọi là cross-cutting? [id:2240 order:6]
+# tại sao lại gọi là cross-cutting? [id:1708 order:6]
 cross cutting nghĩa là cắt ngang,
 gọi là cross cutting vì các service này sẽ dùng ở mọi tầng, "cắt ngang" mọi chỗ
 
-# 1 source nên có mấy file appsettings? [id:2241 order:7]
+# 1 source nên có mấy file appsettings? [id:1709 order:7]
 nên dùng 3 file, mỗi file tương ứng với 1 môi trường
 
-# .NET xác định môi trường dựa vào đâu? [id:2242 order:8]
+# .NET xác định môi trường dựa vào đâu? [id:1710 order:8]
 dựa vào biến môi trường: ASPNETCORE_ENVIROMENT
 
-# file appsettings nào được dùng ,đc quyết định bởi cái gì? [id:2243 order:9]
+# file appsettings nào được dùng ,đc quyết định bởi cái gì? [id:1711 order:9]
 được quyết định bởi môi trường
 
-# so sánh file app.config và appsettings.json? [id:2244 order:10]
+# so sánh file app.config và appsettings.json? [id:1712 order:10]
 giống nhau: đều dùng để lưu key, password, address,...
 khác nhau: app.config là file dùng cho .NET cũ, còn appsettings dùng cho .NET hiện đại
 
-# nên dùng app.config hay appsettings? vì sao? [id:2245 order:11]
+# nên dùng app.config hay appsettings? vì sao? [id:1713 order:11]
 nên dùng appsettings, vì nó và version mới, và nó linh hoạt, mạnh mẽ hơn
 
-# cross-ting tương ứng với tầng gì ở FE? [id:2246 order:12]
+# cross-ting tương ứng với tầng gì ở FE? [id:1714 order:12]
 tầng shared
 
-# Tại sao khi deploy BE thì đôi lúc bị lỗi do service hiện tại đang chạy nhỉ? [id:2247 order:13]
+# Tại sao khi deploy BE thì đôi lúc bị lỗi do service hiện tại đang chạy nhỉ? [id:1715 order:13]
 nếu deploy lúc app đạng chạy thì sẽ bị lỗi
 còn nếu app dang idle thì k sao
 
-# idle là gì? [id:2248 order:14]
+# idle là gì? [id:1716 order:14]
 là trạng thái app rảnh
