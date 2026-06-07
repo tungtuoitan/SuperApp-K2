@@ -12,3 +12,6 @@ component unmount
 
 # Nguyên tắc dùng useEffect? [id:815 order:32]
 nếu k làm việc với external system (vd: server,...) thì ta k nên dùng useEffect
+
+# năm nay CR7 có vô địch không?
+hãy hỏi tôi, tôi k biết bạn ơi
