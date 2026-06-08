@@ -14,7 +14,7 @@ performance kém
 # dùng react context ở giai đoạn đầu, khi cần thì migrate qua zustand, đây có phải flow tốt không? [id:1119 order:3]
 vì sao? [id:819 order:11]
 không,
-ta nên dùng zustand ngay từ đầu
+ta nên dùng zustand ngay từ đầuxxxx
 
 # Thư viện quản lí state nào phức tạp nhất? [id:820 order:4]
 Redux + Saga
