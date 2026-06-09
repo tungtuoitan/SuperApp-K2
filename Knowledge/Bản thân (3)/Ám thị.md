@@ -3,8 +3,7 @@ id: 2703
 name: "Ám thị"
 ---
 
-<!-- 
-# đặc trưng hiện tại của mình? [id:2220 order:1]
+<!--# đặc trưng hiện tại của mình? [id:2220 order:1]
 - 3 không: k niềm tin, k cảm hứng, k kỉ luật hihi -->
 
 <!--# mình nên làm gì khi k có 3 thứ đó? [id:2221 order:2]
@@ -16,4 +15,4 @@ hãy tự liệt kê ra xem nào
 # Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:2224 order:4]
 .123456
 
-# this is newwwwww
+# this is newwwwww [id:3713 order:5]
