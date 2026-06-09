@@ -4,7 +4,7 @@ name: "Refactor SuperApp"
 ---
 
 # Tại sao nên tiếp tục fetch thủ công thay vì chuyển qua Axios? [id:708 order:1]
-fetch thu công nhé, vì fetch thủ công đã đủ dùng rồi
+fetch thu công nhé, vì fetch thủ công đã đủ dùng rồi xxxxxxxxxxxxxx
 
 # Khi nào thì nên dùng Axios? [id:709 order:2]
 khi viết project mới hoặc nhảy vào project đang có Axios
