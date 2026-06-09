@@ -1,6 +1,6 @@
 ﻿---
 id: 2573
-name: "Chữa bệnh"
+name: "Chữa bệnh2"
 ---
 
 # 2 nguyên nhân gốc rễ dẫn đến bệnh tật? [id:1145 order:1]
