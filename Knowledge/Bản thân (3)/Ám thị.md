@@ -4,7 +4,7 @@ name: "Ám thị"
 ---
 <!-- 
 # đặc trưng hiện tại của mình? [id:2220 order:1]
-- 3 không: k niềm tin, k cảm hứng, k kỉ luật -->
+- 3 không: k niềm tin, k cảm hứng, k kỉ luật hihi -->
 
 <!--# mình nên làm gì khi k có 3 thứ đó? [id:2221 order:2]
 - tích luỹ việc tốt hằng ngày, thay vì đặt mục tiêu cụ thể -->
