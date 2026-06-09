@@ -8,11 +8,13 @@ name: "Ám thị"
 
 <!--# mình nên làm gì khi k có 3 thứ đó? [id:2221 order:2]
 - tích luỹ việc tốt hằng ngày, thay vì đặt mục tiêu cụ thể -->
-
+<!-- 
 # Hôm nay có gì tiến bộ? [id:2223 order:3]
-hãy tự liệt kê ra xem nào
+hãy tự liệt kê ra xem nào -->
 
-# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:2224 order:4]
-.123456
+<!-- # Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:2224 order:4]
+.123456 
+
+-->
 
 # this is newwwwww [id:3713 order:5]
