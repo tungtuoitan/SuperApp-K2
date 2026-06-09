@@ -20,7 +20,7 @@ ta nên dùng zustand ngay từ đầuxxxx
 Redux + Saga
 
 # khi nào dùng Redux saga? [id:821 order:5]
-khi cần async phức tạp, hoặc cần realtime
+khi cần async phức tạp, hoặc cần realtimesfseff
 
 # Tại sao React Context lại k tốt cho hiệu suất? [id:822 order:6]
 vì khi 1 state update, mọi component link đến context đều re-render
