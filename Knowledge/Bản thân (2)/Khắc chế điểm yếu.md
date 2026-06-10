@@ -7,5 +7,5 @@ name: "Khắc chế điểm yếu"
 ngâm trong 2'
 nghĩ 2 lần
 
-<!--# làm sao để khắc chế tính hay quên? [id:1684 order:2]
+<!--# làm sao để khắc chế tính hay quên2? [id:1684 order:2]
 tạo skill để validate -->
