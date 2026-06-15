@@ -16,11 +16,11 @@ vì sao? [id:819 order:11]
 không,
 ta nên dùng zustand ngay từ đầuxxxx
 
-# Thư viện quản lí state nào phức tạp nhất? [id:820 order:4]
-Redux + Sagasfsf
+<!--# Thư viện quản lí state nào phức tạp nhất? [id:820 order:4]
+Redux + Sagasfsf -->
 
-# khi nào dùng Redux saga? [id:821 order:5]
-khi cần async phức tạp, hoặc cần realtimesfseff
+<!--# khi nào dùng Redux saga? [id:821 order:5]
+khi cần async phức tạp, hoặc cần realtimesfseff -->
 
 # Tại sao React Context lại k tốt cho hiệu suất? [id:822 order:6]
 vì khi 1 state update, mọi component link đến context đều re-render
