@@ -13,7 +13,7 @@ name: "Ám thị"
 - vì có kỉ luật và động lực để làm đâu, cho nên đằng nào cũng k làm được
 
 # Hôm nay có gì tiến bộ? [id:1197 order:4]
-hãy tự liệt kê ra xem nào 
+hãy tự liệt kê ra xem nào
 
-# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5 att:case1]
+# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5]
 .xxxx

@@ -1,5 +1,4 @@
-// Case 1: Closure capture — không có Sleep → process exit, task bị kill
-
+﻿// att-id:1
 using System.Threading;
 
 for (int i = 0; i < 10; i++)
