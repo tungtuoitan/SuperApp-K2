@@ -16,3 +16,4 @@ for (int i = 0; i < 10; i++)
 
 // for và task cái nào chạy trước, mình có biết được không?
 // → Không biết được. for chỉ đăng ký task vào hàng đợi, OS quyết định khi nào thread pool nhặt lên chạy.
+// xxx
