@@ -3,7 +3,7 @@ id: 2581
 name: "Ám thị"
 ---
 
-# đặc trưng hiện tại của mình? [id:1194 order:1]
+# đặc trưng hiện tại của mình? [id:1194 order:1 atts:1]
 - 3 không: k niềm tin, k cảm hứng, k kỉ luật
 
 <!--# mình nên làm gì khi k có 3 thứ đó? [id:1195 order:2]
@@ -15,5 +15,5 @@ name: "Ám thị"
 # Hôm nay có gì tiến bộ? [id:1197 order:4]
 hãy tự liệt kê ra xem nào
 
-# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5 atts:1]
+# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5]
 TESTXYZ999
