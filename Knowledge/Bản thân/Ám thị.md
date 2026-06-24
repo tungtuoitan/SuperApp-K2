@@ -15,5 +15,5 @@ name: "Ám thị"
 # 4? [id:1197 order:4]
 hãy tự liệt kê ra xem nào
 
-<!--# 5 [id:1198 order:5 atts:2,1,case3]
+<!--# 5 [id:1198 order:5 atts:2,1,3]
 52 -->
