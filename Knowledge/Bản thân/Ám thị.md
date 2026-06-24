@@ -14,6 +14,3 @@ name: "Ám thị"
 
 # 4? [id:1197 order:4]
 hãy tự liệt kê ra xem nào
-
-# 5 [id:1198 order:5 atts:3,1,4,6]
-52
