@@ -12,8 +12,8 @@ name: "Ám thị"
 # 3? [id:1196 order:3]
 - vì có kỉ luật và động lực để làm đâu, cho nên đằng nào cũng k làm được
 
-# 4? [id:1197 order:4 atts:case3]
+# 4? [id:1197 order:4]
 hãy tự liệt kê ra xem nào
 
-<!--# 5 [id:1198 order:5 atts:1,case2]
+<!--# 5 [id:1198 order:5 atts:2,1]
 52 -->
