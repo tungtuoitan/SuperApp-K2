@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+﻿// att-id:4
 import { Panel, PanelGroup, type ImperativePanelHandle } from "react-resizable-panels";
 import { ActivityBar } from "./ActivityBar";
 import { VSCodeResizeHandle } from "../VSCodeResizeHandle";

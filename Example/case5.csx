@@ -1,4 +1,4 @@
-﻿import { PanelResizeHandle } from "react-resizable-panels";
+﻿// att-id:5
 import { useDeviceStore } from "@/shared";
 
 interface VSCodeResizeHandleProps {

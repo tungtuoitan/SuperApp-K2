@@ -1,4 +1,4 @@
-﻿
+﻿// att-id:6
 #
 - [x] tạo data trong k.attachment tương ứng với /Example
 - [x] attach new file (chưa có id) vào question/node bằng atts:filename
