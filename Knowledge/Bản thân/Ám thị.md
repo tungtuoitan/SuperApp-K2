@@ -16,4 +16,4 @@ name: "Ám thị"
 hãy tự liệt kê ra xem nào
 
 # Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5 att:case1]
-.xxxx
+TESTXYZ999
