@@ -15,5 +15,5 @@ name: "Ám thị"
 # Hôm nay có gì tiến bộ? [id:1197 order:4]
 hãy tự liệt kê ra xem nào
 
-# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5 att:1]
+# Hãy nhìn vào gương, đừng nhìn qua cửa sổ [id:1198 order:5 atts:1]
 TESTXYZ999
