@@ -24,3 +24,7 @@ hãy tự liệt kê ra xem nào
 
 # 7 [id:3717 order:7 atts:1]
 7
+
+
+# 8 [atts:case8]
+8
