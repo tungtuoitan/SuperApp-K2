@@ -34,3 +34,10 @@ Thời gian xử lý: trong vòng 24 giờ.
 Mức độ sẵn sàng của hệ thống: 99.9% uptime.
 Mức bồi thường nếu không đạt cam kết.
 Mức bồi thường nếu không đạt cam kết.
+
+# Thời gian phản hồi: trong vòng 1 giờ. Thời gian xử lý: trong vòng 24 giờ. Mức độ sẵn sàng của hệ thống: 99.9% uptime.ức bồi thường nếu không đạt cam kết.? [id:3721 order:4 getctx:3719]
+Thời gian phản hồi: trong vòng 1 giờ.
+Thời gian xử lý: trong vòng 24 giờ.
+Mức độ sẵn sàng của hệ thống: 99.9% uptime.
+Mức bồi thường nếu không đạt cam kết.
+Mức bồi thường nếu không đạt cam kết.
