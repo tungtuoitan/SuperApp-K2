@@ -94,6 +94,7 @@ Quy ước của nhà sản xuất. `192.168.x.x` là dải IP private (RFC 1918
 WiFi .26  WiFi .50  Cáp .100
 ```
 
+
 <!--# PC dùng cáp Ethernet thì subnet có khác WiFi không? [id:1525 order:26]
 Thông thường trong nhà, cùng router thì cùng subnet dù dùng cáp hay WiFi. Có thể khác nếu dùng static IP thủ công — như trường hợp `192.168.2.1` (Ethernet static) tách biệt với `192.168.2.26` (WiFi DHCP). -->
 
