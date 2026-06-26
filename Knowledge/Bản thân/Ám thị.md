@@ -22,8 +22,7 @@ static async Task<string> B()
 }
 ```
 
-hãy tự liệt kê ra xem nàoxxxx
-
+41
 <!--# 5 [id:3715 order:5 atts:3,1,4,6]
 52 -->
 
