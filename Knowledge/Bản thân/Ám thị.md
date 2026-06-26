@@ -15,7 +15,7 @@ name: "Ám thị"
 # 4? [id:1197 order:4]
 ```csharp
 var tasks = new List<Task<string>>();
-B();
+B();xxxx
 static async Task<string> B()
 {
     throw new Exception($"");
