@@ -23,5 +23,5 @@ hãy tự liệt kê ra xem nào
 hãy tự liệt kê ra xem nào
 
 
-# 7 [atts:1]
+# 7 [atts:case7]
 7
