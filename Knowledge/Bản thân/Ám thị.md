@@ -3,7 +3,7 @@ id: 2581
 name: "Ám thị"
 ---
 
-# 1? [id:1194 order:1]
+# 1? [id:1194 order:1 atts:1,4]
 - 3 không: k niềm tin, k cảm hứng, k kỉ luật
 
 <!--# 2? [id:1195 order:2]
@@ -20,3 +20,4 @@ hãy tự liệt kê ra xem nào
 
 # 666 [atts:case1]
 69696
+hãy tự liệt kê ra xem nào
