@@ -3,7 +3,7 @@ id: 2562
 name: "Network"
 ---
 
-# 2? [id:3719 order:2 open-context]
+# 2? [id:3719 order:1 open-context]
 ```csharp
 var tasks = new List<Task<string>>();
 B();xxxx
@@ -15,16 +15,42 @@ static async Task<string> B()
 
 22
 
-# 3 [id:3720 order:3 ]
+# 3 [id:3720 order:2]
+```csharp
+var tasks = new List<Task<string>>();
+B();xxxx
+static async Task<string> B()
+{
+    throw new Exception($"");
+}
+```
+
 Thời gian phản hồi: trong vòng 1 giờ.
 Thời gian xử lý: trong vòng 24 giờ.
 Mức độ sẵn sàng của hệ thống: 99.9% uptime.
 Mức bồi thường nếu không đạt cam kết.
 Mức bồi thường nếu không đạt cam kết.
 
-# 4 
+# 4 [id:3722 order:3]
+```csharp
+var tasks = new List<Task<string>>();
+B();xxxx
+static async Task<string> B()
+{
+    throw new Exception($"");
+}
+```
+
 44444
 
+# 5 [id:3723 order:4 close-context]
+```csharp
+var tasks = new List<Task<string>>();
+B();xxxx
+static async Task<string> B()
+{
+    throw new Exception($"");
+}
+```
 
-# 5 [close-context]
 555
