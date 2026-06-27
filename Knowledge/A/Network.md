@@ -27,3 +27,15 @@ Mức bồi thường nếu không đạt cam kết.
 
 # 5 [id:3723 order:4 close-context]
 55555
+
+# 6 
+6
+
+# 7 [open-context]
+```csharp
+var tasks = new List<Task<string>>();
+```
+# 8 
+8
+# 9
+9
