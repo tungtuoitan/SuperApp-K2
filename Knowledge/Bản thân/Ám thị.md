@@ -13,15 +13,6 @@ name: "Ám thị"
 - vì có kỉ luật và động lực để làm đâu, cho nên đằng nào cũng k làm được
 
 # 4? [id:1197 order:4]
-```csharp
-var tasks = new List<Task<string>>();
-B();xxxx
-static async Task<string> B()
-{
-    throw new Exception($"");
-}
-```
-
 41
 
 <!--# 5 [id:3715 order:5 atts:3,1,4,6]

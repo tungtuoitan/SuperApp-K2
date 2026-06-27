@@ -4,15 +4,6 @@ name: "Network"
 ---
 
 # 2? [id:3719 order:1]
-```csharp
-var tasks = new List<Task<string>>();
-B();xxxx
-static async Task<string> B()
-{
-    throw new Exception($"");
-}
-```
-
 22
 
 # 3 [id:3720 order:2]
@@ -26,4 +17,4 @@ Mức bồi thường nếu không đạt cam kết.
 44444
 
 # 5 [id:3723 order:4]
-55555
+52

@@ -82,18 +82,6 @@ Subnet của WiFi là dải IP mà router cấp cho các thiết bị WiFi, ví 
 Quy ước của nhà sản xuất. `192.168.x.x` là dải IP private (RFC 1918) dành riêng cho mạng nội bộ, không route được trên internet. Router thường lấy địa chỉ đầu tiên trong subnet (`.1`) làm IP của mình.
 
 # Sơ đồ thành phần trong mạng nhà đơn giản? [id:1524 order:25]
-```
-[Internet / ISP]
-       |
-    [Modem]         ← kết nối với ISP, chuyển tín hiệu
-       |
-    [Router]  ──── IP: 192.168.2.253 (gateway)
-    /   |   \       cấp IP qua DHCP, định tuyến traffic
-   /    |    \
-[Laptop] [Phone] [PC]
-WiFi .26  WiFi .50  Cáp .100
-```
-
 
 <!--# PC dùng cáp Ethernet thì subnet có khác WiFi không? [id:1525 order:26]
 Thông thường trong nhà, cùng router thì cùng subnet dù dùng cáp hay WiFi. Có thể khác nếu dùng static IP thủ công — như trường hợp `192.168.2.1` (Ethernet static) tách biệt với `192.168.2.26` (WiFi DHCP). -->

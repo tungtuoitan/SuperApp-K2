@@ -19,7 +19,3 @@ Public: ai cũng truy cập được. Private: chỉ owner mới truy cập đư
 Có.
 
 # Bật CDN thì URL thay đổi như thế nào? [id:1307 order:6]
-```
-Trước: https://mystorage.blob.core.windows.net/files/img.jpg
-Sau:   https://mystorage.azureedge.net/files/img.jpg
-```
