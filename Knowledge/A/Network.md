@@ -39,10 +39,3 @@ var tasks = new List<Task<string>>();
 8
 # 9
 9
-
-# 10 [close-context]
-10
-
-# 11 [open-context]
-11
-# 12 [close-context]
